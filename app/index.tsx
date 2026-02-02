@@ -51,7 +51,7 @@ export default function Screen() {
           variant="outline" 
           size="lg"
           className="min-w-[200px] sm:min-w-[240px] text-base sm:text-lg font-semibold border-primary text-primary transition-all duration-300 hover:scale-105 hover:bg-primary hover:shadow-[0_0_20px_hsl(187,100%,50%,0.5)]"
-          onPress={() => router.navigate('/register')}
+          onPress={() => router.navigate('/pages/Register')}
         >
           Register
         </Button>
