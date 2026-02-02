@@ -9,7 +9,6 @@ import { Uniwind, useUniwind } from 'uniwind';
 import { SignUpForm } from '@/components/sign-up-form';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { type } from '../components/ui/button';
 
 
 const Register = () => {
@@ -31,22 +30,22 @@ const Register = () => {
           <View className="space-y-4">
             <View className="space-y-2">
               <Label htmlFor="name">Full Name</Label>
-              <Input id="name" placeholder="John Doe" />
+              <Input id="name" placeholder="John Doe" placeholderTextColor="gray" />
             </View>
 
             <View className="space-y-2">
               <Label htmlFor="email">Email</Label>
-              <Input id="email" placeholder="you@example.com" />
+                <Input id="email" placeholder="you@example.com" placeholderTextColor="gray" />
             </View>
 
             <View className="space-y-2">
               <Label htmlFor="password">Password</Label>
-              <Input id="password" placeholder="••••••••" secureTextEntry={true} />
+              <Input id="password" placeholder="••••••••" secureTextEntry={true} placeholderTextColor="gray" />
             </View>
 
             <View className="space-y-2">
               <Label htmlFor="confirmPassword">Confirm Password</Label>
-              <Input id="confirmPassword" placeholder="••••••••" secureTextEntry={true} />
+              <Input id="confirmPassword" placeholder="••••••••" secureTextEntry={true} placeholderTextColor="gray" />
             </View>
 
             <Button 
