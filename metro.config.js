@@ -10,3 +10,7 @@ module.exports = withUniwindConfig(config, {
   // defaults to project's root
   dtsFile: './uniwind-types.d.ts',
 });
+const { getDefaultConfig } = require('expo/metro-config');
+/** @type {import('expo/metro-config').MetroConfig} */
+config.resolver.sourceExts.push('sql'); // <--- add this
+module.exports = config;
