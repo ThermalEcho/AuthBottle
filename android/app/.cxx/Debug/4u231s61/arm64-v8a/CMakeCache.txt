@@ -18,7 +18,7 @@
 ANDROID_ABI:UNINITIALIZED=arm64-v8a
 
 //No help, variable specified on the command line.
-ANDROID_NDK:UNINITIALIZED=C:\Users\filip\AppData\Local\Android\Sdk\ndk\27.1.12297006
+ANDROID_NDK:UNINITIALIZED=C:/Users\filip\AppData\Local\Android\Sdk\ndk\27.1.12297006
 
 //No help, variable specified on the command line.
 ANDROID_PLATFORM:UNINITIALIZED=android-24
@@ -39,7 +39,7 @@ CMAKE_ADDR2LINE:FILEPATH=C:/Users/filip/AppData/Local/Android/Sdk/ndk/27.1.12297
 CMAKE_ANDROID_ARCH_ABI:UNINITIALIZED=arm64-v8a
 
 //No help, variable specified on the command line.
-CMAKE_ANDROID_NDK:UNINITIALIZED=C:\Users\filip\AppData\Local\Android\Sdk\ndk\27.1.12297006
+CMAKE_ANDROID_NDK:UNINITIALIZED=C:/Users\filip\AppData\Local\Android\Sdk\ndk\27.1.12297006
 
 //Archiver
 CMAKE_AR:FILEPATH=C:/Users/filip/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ar.exe
@@ -127,19 +127,19 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_EXPORT_COMPILE_COMMANDS:UNINITIALIZED=ON
 
 //No help, variable specified on the command line.
-CMAKE_FIND_ROOT_PATH:UNINITIALIZED=C:\Projects\AuthBottle\android\app\.cxx\Debug\4u231s61\prefab\arm64-v8a\prefab
+CMAKE_FIND_ROOT_PATH:UNINITIALIZED=C:/Projects\AuthBottle\android\app\.cxx\Debug\4u231s61\prefab\arm64-v8a\prefab
 
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/appmodules
 
 //No help, variable specified on the command line.
-CMAKE_LIBRARY_OUTPUT_DIRECTORY:UNINITIALIZED=C:\Projects\AuthBottle\android\app\build\intermediates\cxx\Debug\4u231s61\obj\arm64-v8a
+CMAKE_LIBRARY_OUTPUT_DIRECTORY:UNINITIALIZED=C:/Projects\AuthBottle\android\app\build\intermediates\cxx\Debug\4u231s61\obj\arm64-v8a
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Users/filip/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld.exe
 
 //No help, variable specified on the command line.
-CMAKE_MAKE_PROGRAM:UNINITIALIZED=C:\Users\filip\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe
+CMAKE_MAKE_PROGRAM:UNINITIALIZED=C:/Users\filip\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe
 
 //Flags used by the linker during the creation of modules.
 CMAKE_MODULE_LINKER_FLAGS:STRING=
@@ -185,7 +185,7 @@ CMAKE_RANLIB:FILEPATH=C:/Users/filip/AppData/Local/Android/Sdk/ndk/27.1.12297006
 CMAKE_READELF:FILEPATH=C:/Users/filip/AppData/Local/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-readelf.exe
 
 //No help, variable specified on the command line.
-CMAKE_RUNTIME_OUTPUT_DIRECTORY:UNINITIALIZED=C:\Projects\AuthBottle\android\app\build\intermediates\cxx\Debug\4u231s61\obj\arm64-v8a
+CMAKE_RUNTIME_OUTPUT_DIRECTORY:UNINITIALIZED=C:/Projects\AuthBottle\android\app\build\intermediates\cxx\Debug\4u231s61\obj\arm64-v8a
 
 //Flags used by the linker during the creation of dll's.
 CMAKE_SHARED_LINKER_FLAGS:STRING=
@@ -252,13 +252,13 @@ CMAKE_TOOLCHAIN_FILE:FILEPATH=C:/Users/filip/AppData/Local/Android/Sdk/ndk/27.1.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //No help, variable specified on the command line.
-PROJECT_BUILD_DIR:UNINITIALIZED=C:\Projects\AuthBottle\android\app\build
+PROJECT_BUILD_DIR:UNINITIALIZED=C:/Projects\AuthBottle\android\app\build
 
 //No help, variable specified on the command line.
-PROJECT_ROOT_DIR:UNINITIALIZED=C:\Projects\AuthBottle\android
+PROJECT_ROOT_DIR:UNINITIALIZED=C:/Projects\AuthBottle\android
 
 //No help, variable specified on the command line.
-REACT_ANDROID_DIR:UNINITIALIZED=C:\Projects\AuthBottle\node_modules\react-native\ReactAndroid
+REACT_ANDROID_DIR:UNINITIALIZED=C:/Projects\AuthBottle\node_modules\react-native\ReactAndroid
 
 //The directory containing a CMake configuration file for ReactAndroid.
 ReactAndroid_DIR:PATH=C:/Projects/AuthBottle/android/app/.cxx/Debug/4u231s61/prefab/arm64-v8a/prefab/lib/aarch64-linux-android/cmake/ReactAndroid

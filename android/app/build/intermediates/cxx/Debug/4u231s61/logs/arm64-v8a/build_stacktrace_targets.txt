@@ -1,5 +1,5 @@
-com.android.ide.common.process.ProcessException: Error while executing process C:\Users\filip\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe with arguments {-C C:\Projects\AuthBottle\android\app\.cxx\Debug\4u231s61\arm64-v8a appmodules react_codegen_reactnativekeyboardcontroller react_codegen_rnscreens react_codegen_rnsvg react_codegen_safeareacontext}
-com.android.ide.common.process.ProcessException: Error while executing process C:\Users\filip\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe with arguments {-C C:\Projects\AuthBottle\android\app\.cxx\Debug\4u231s61\arm64-v8a appmodules react_codegen_reactnativekeyboardcontroller react_codegen_rnscreens react_codegen_rnsvg react_codegen_safeareacontext}
+com.android.ide.common.process.ProcessException: Error while executing process C:/Users\filip\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe with arguments {-C C:/Projects\AuthBottle\android\app\.cxx\Debug\4u231s61\arm64-v8a appmodules react_codegen_reactnativekeyboardcontroller react_codegen_rnscreens react_codegen_rnsvg react_codegen_safeareacontext}
+com.android.ide.common.process.ProcessException: Error while executing process C:/Users\filip\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe with arguments {-C C:/Projects\AuthBottle\android\app\.cxx\Debug\4u231s61\arm64-v8a appmodules react_codegen_reactnativekeyboardcontroller react_codegen_rnscreens react_codegen_rnsvg react_codegen_safeareacontext}
 	at com.android.build.gradle.internal.process.GradleProcessResult.buildProcessException(GradleProcessResult.java:73)
 	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:48)
 	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.execute(ExecuteProcess.kt:277)
@@ -140,7 +140,7 @@ com.android.ide.common.process.ProcessException: Error while executing process C
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.gradle.process.internal.ExecException: Process 'command 'C:\Users\filip\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe'' finished with non-zero exit value 1
+Caused by: org.gradle.process.internal.ExecException: Process 'command 'C:/Users\filip\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe'' finished with non-zero exit value 1
 	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:442)
 	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:46)
 	... 138 more

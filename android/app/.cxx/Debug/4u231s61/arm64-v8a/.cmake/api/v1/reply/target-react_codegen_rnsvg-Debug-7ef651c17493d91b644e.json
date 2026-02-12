@@ -240,17 +240,17 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\1657b42eefcb6e428a0c7a95fe57a3c2\\transformed\\react-android-0.81.5-debug\\prefab\\modules\\reactnative\\libs\\android.arm64-v8a\\libreactnative.so",
+				"fragment" : "C:/\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\1657b42eefcb6e428a0c7a95fe57a3c2\\transformed\\react-android-0.81.5-debug\\prefab\\modules\\reactnative\\libs\\android.arm64-v8a\\libreactnative.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\1657b42eefcb6e428a0c7a95fe57a3c2\\transformed\\react-android-0.81.5-debug\\prefab\\modules\\jsi\\libs\\android.arm64-v8a\\libjsi.so",
+				"fragment" : "C:/\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\1657b42eefcb6e428a0c7a95fe57a3c2\\transformed\\react-android-0.81.5-debug\\prefab\\modules\\jsi\\libs\\android.arm64-v8a\\libjsi.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\6d3677e35d40c73eb3fed73ec12789f0\\transformed\\fbjni-0.7.0\\prefab\\modules\\fbjni\\libs\\android.arm64-v8a\\libfbjni.so",
+				"fragment" : "C:/\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\6d3677e35d40c73eb3fed73ec12789f0\\transformed\\fbjni-0.7.0\\prefab\\modules\\fbjni\\libs\\android.arm64-v8a\\libfbjni.so",
 				"role" : "libraries"
 			},
 			{

@@ -1,5 +1,5 @@
 {
-  "installationFolder": "C:\\Projects\\AuthBottle\\node_modules\\react-native-worklets\\android\\build\\intermediates\\prefab_package\\debug\\prefab",
+  "installationFolder": "C:/\Projects\\AuthBottle\\node_modules\\react-native-worklets\\android\\build\\intermediates\\prefab_package\\debug\\prefab",
   "gradlePath": ":react-native-worklets",
   "packageInfo": {
     "packageName": "react-native-worklets",
@@ -9,7 +9,7 @@
     "modules": [
       {
         "moduleName": "worklets",
-        "moduleHeaders": "C:\\Projects\\AuthBottle\\node_modules\\react-native-worklets\\android\\build\\prefab-headers\\worklets",
+        "moduleHeaders": "C:/\Projects\\AuthBottle\\node_modules\\react-native-worklets\\android\\build\\prefab-headers\\worklets",
         "moduleExportLibraries": [],
         "abis": [
           {
@@ -17,8 +17,8 @@
             "abiApi": 24,
             "abiNdkMajor": 27,
             "abiStl": "c++_shared",
-            "abiLibrary": "C:\\Projects\\AuthBottle\\node_modules\\react-native-worklets\\android\\build\\intermediates\\cxx\\Debug\\5s3a336y\\obj\\arm64-v8a\\libworklets.so",
-            "abiAndroidGradleBuildJsonFile": "C:\\Projects\\AuthBottle\\node_modules\\react-native-worklets\\android\\.cxx\\Debug\\5s3a336y\\arm64-v8a\\android_gradle_build.json"
+            "abiLibrary": "C:/\Projects\\AuthBottle\\node_modules\\react-native-worklets\\android\\build\\intermediates\\cxx\\Debug\\5s3a336y\\obj\\arm64-v8a\\libworklets.so",
+            "abiAndroidGradleBuildJsonFile": "C:/\Projects\\AuthBottle\\node_modules\\react-native-worklets\\android\\.cxx\\Debug\\5s3a336y\\arm64-v8a\\android_gradle_build.json"
           }
         ]
       }

@@ -23,7 +23,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\filip\\AppData\\Local\\Android\\Sdk\\ndk\\27.1.12297006"
+			"value" : "C:/\Users\\filip\\AppData\\Local\\Android\\Sdk\\ndk\\27.1.12297006"
 		},
 		{
 			"name" : "ANDROID_PLATFORM",
@@ -111,7 +111,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\filip\\AppData\\Local\\Android\\Sdk\\ndk\\27.1.12297006"
+			"value" : "C:/\Users\\filip\\AppData\\Local\\Android\\Sdk\\ndk\\27.1.12297006"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Projects\\AuthBottle\\android\\app\\.cxx\\Debug\\4u231s61\\prefab\\arm64-v8a\\prefab"
+			"value" : "C:/\Projects\\AuthBottle\\android\\app\\.cxx\\Debug\\4u231s61\\prefab\\arm64-v8a\\prefab"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -787,7 +787,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Projects\\AuthBottle\\android\\app\\build\\intermediates\\cxx\\Debug\\4u231s61\\obj\\arm64-v8a"
+			"value" : "C:/\Projects\\AuthBottle\\android\\app\\build\\intermediates\\cxx\\Debug\\4u231s61\\obj\\arm64-v8a"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -815,7 +815,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\filip\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe"
+			"value" : "C:/\Users\\filip\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1059,7 +1059,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Projects\\AuthBottle\\android\\app\\build\\intermediates\\cxx\\Debug\\4u231s61\\obj\\arm64-v8a"
+			"value" : "C:/\Projects\\AuthBottle\\android\\app\\build\\intermediates\\cxx\\Debug\\4u231s61\\obj\\arm64-v8a"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1331,7 +1331,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Projects\\AuthBottle\\android\\app\\build"
+			"value" : "C:/\Projects\\AuthBottle\\android\\app\\build"
 		},
 		{
 			"name" : "PROJECT_ROOT_DIR",
@@ -1343,7 +1343,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Projects\\AuthBottle\\android"
+			"value" : "C:/\Projects\\AuthBottle\\android"
 		},
 		{
 			"name" : "REACT_ANDROID_DIR",
@@ -1355,7 +1355,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Projects\\AuthBottle\\node_modules\\react-native\\ReactAndroid"
+			"value" : "C:/\Projects\\AuthBottle\\node_modules\\react-native\\ReactAndroid"
 		},
 		{
 			"name" : "ReactAndroid_DIR",

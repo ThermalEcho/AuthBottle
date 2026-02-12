@@ -1,7 +1,7 @@
 @echo off
-"C:\\Users\\filip\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+"C:/\Users\\filip\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
   -C ^
-  "C:\\Projects\\AuthBottle\\android\\app\\.cxx\\Debug\\4u231s61\\arm64-v8a" ^
+  "C:/\Projects\\AuthBottle\\android\\app\\.cxx\\Debug\\4u231s61\\arm64-v8a" ^
   appmodules ^
   react_codegen_reactnativekeyboardcontroller ^
   react_codegen_rnscreens ^
