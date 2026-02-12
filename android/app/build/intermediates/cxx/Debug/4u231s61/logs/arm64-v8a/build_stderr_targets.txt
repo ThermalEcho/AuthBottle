@@ -1,0 +1,1 @@
+ninja: error: Stat(reactnativekeyboardcontroller_autolinked_build/CMakeFiles/react_codegen_reactnativekeyboardcontroller.dir/C_/Projects/AuthBottle/node_modules/react-native-keyboard-controller/android/build/generated/source/codegen/jni/react/renderer/components/reactnativekeyboardcontroller/reactnativekeyboardcontrollerJSI-generated.cpp.o): Filename longer than 260 characters
