@@ -1,0 +1,112 @@
+{
+  "buildFiles": [
+    "C:\\Projects\\AuthBottle\\node_modules\\react-native-gesture-handler\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "C:\\Projects\\AuthBottle\\node_modules\\react-native-keyboard-controller\\android\\src\\main\\jni\\CMakeLists.txt",
+    "C:\\Projects\\AuthBottle\\node_modules\\react-native-reanimated\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "C:\\Projects\\AuthBottle\\node_modules\\react-native-safe-area-context\\android\\src\\main\\jni\\CMakeLists.txt",
+    "C:\\Projects\\AuthBottle\\node_modules\\react-native-screens\\android\\src\\main\\jni\\CMakeLists.txt",
+    "C:\\Projects\\AuthBottle\\node_modules\\react-native-svg\\android\\src\\main\\jni\\CMakeLists.txt",
+    "C:\\Projects\\AuthBottle\\node_modules\\react-native-worklets\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "C:\\Projects\\AuthBottle\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\filip\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Projects\\AuthBottle\\android\\app\\.cxx\\Debug\\4u231s61\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\filip\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Projects\\AuthBottle\\android\\app\\.cxx\\Debug\\4u231s61\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "appmodules::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "appmodules",
+      "output": "C:\\Projects\\AuthBottle\\android\\app\\build\\intermediates\\cxx\\Debug\\4u231s61\\obj\\arm64-v8a\\libappmodules.so",
+      "runtimeFiles": [
+        "C:\\Projects\\AuthBottle\\android\\app\\build\\intermediates\\cxx\\Debug\\4u231s61\\obj\\arm64-v8a\\libreact_codegen_reactnativekeyboardcontroller.so",
+        "C:\\Projects\\AuthBottle\\android\\app\\build\\intermediates\\cxx\\Debug\\4u231s61\\obj\\arm64-v8a\\libreact_codegen_safeareacontext.so",
+        "C:\\Projects\\AuthBottle\\android\\app\\build\\intermediates\\cxx\\Debug\\4u231s61\\obj\\arm64-v8a\\libreact_codegen_rnscreens.so",
+        "C:\\Projects\\AuthBottle\\android\\app\\build\\intermediates\\cxx\\Debug\\4u231s61\\obj\\arm64-v8a\\libreact_codegen_rnsvg.so",
+        "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\6d3677e35d40c73eb3fed73ec12789f0\\transformed\\fbjni-0.7.0\\prefab\\modules\\fbjni\\libs\\android.arm64-v8a\\libfbjni.so",
+        "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\1657b42eefcb6e428a0c7a95fe57a3c2\\transformed\\react-android-0.81.5-debug\\prefab\\modules\\jsi\\libs\\android.arm64-v8a\\libjsi.so",
+        "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\1657b42eefcb6e428a0c7a95fe57a3c2\\transformed\\react-android-0.81.5-debug\\prefab\\modules\\reactnative\\libs\\android.arm64-v8a\\libreactnative.so"
+      ]
+    },
+    "react_codegen_reactnativekeyboardcontroller::@dc50c79f19fba14eeefd": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "react_codegen_reactnativekeyboardcontroller",
+      "output": "C:\\Projects\\AuthBottle\\android\\app\\build\\intermediates\\cxx\\Debug\\4u231s61\\obj\\arm64-v8a\\libreact_codegen_reactnativekeyboardcontroller.so",
+      "runtimeFiles": [
+        "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\1657b42eefcb6e428a0c7a95fe57a3c2\\transformed\\react-android-0.81.5-debug\\prefab\\modules\\reactnative\\libs\\android.arm64-v8a\\libreactnative.so",
+        "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\1657b42eefcb6e428a0c7a95fe57a3c2\\transformed\\react-android-0.81.5-debug\\prefab\\modules\\jsi\\libs\\android.arm64-v8a\\libjsi.so",
+        "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\6d3677e35d40c73eb3fed73ec12789f0\\transformed\\fbjni-0.7.0\\prefab\\modules\\fbjni\\libs\\android.arm64-v8a\\libfbjni.so"
+      ]
+    },
+    "react_codegen_rngesturehandler_codegen::@39f233abcd2c728bc6ec": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "react_codegen_rngesturehandler_codegen"
+    },
+    "react_codegen_rnreanimated::@8afabad14bfffa3f8b9a": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "react_codegen_rnreanimated"
+    },
+    "react_codegen_rnscreens::@25bcbd507e98d3a854ad": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "react_codegen_rnscreens",
+      "output": "C:\\Projects\\AuthBottle\\android\\app\\build\\intermediates\\cxx\\Debug\\4u231s61\\obj\\arm64-v8a\\libreact_codegen_rnscreens.so",
+      "runtimeFiles": [
+        "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\1657b42eefcb6e428a0c7a95fe57a3c2\\transformed\\react-android-0.81.5-debug\\prefab\\modules\\reactnative\\libs\\android.arm64-v8a\\libreactnative.so",
+        "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\1657b42eefcb6e428a0c7a95fe57a3c2\\transformed\\react-android-0.81.5-debug\\prefab\\modules\\jsi\\libs\\android.arm64-v8a\\libjsi.so",
+        "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\6d3677e35d40c73eb3fed73ec12789f0\\transformed\\fbjni-0.7.0\\prefab\\modules\\fbjni\\libs\\android.arm64-v8a\\libfbjni.so"
+      ]
+    },
+    "react_codegen_rnsvg::@4f40eb209d0c0b4a3b65": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "react_codegen_rnsvg",
+      "output": "C:\\Projects\\AuthBottle\\android\\app\\build\\intermediates\\cxx\\Debug\\4u231s61\\obj\\arm64-v8a\\libreact_codegen_rnsvg.so",
+      "runtimeFiles": [
+        "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\1657b42eefcb6e428a0c7a95fe57a3c2\\transformed\\react-android-0.81.5-debug\\prefab\\modules\\reactnative\\libs\\android.arm64-v8a\\libreactnative.so",
+        "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\1657b42eefcb6e428a0c7a95fe57a3c2\\transformed\\react-android-0.81.5-debug\\prefab\\modules\\jsi\\libs\\android.arm64-v8a\\libjsi.so",
+        "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\6d3677e35d40c73eb3fed73ec12789f0\\transformed\\fbjni-0.7.0\\prefab\\modules\\fbjni\\libs\\android.arm64-v8a\\libfbjni.so"
+      ]
+    },
+    "react_codegen_rnworklets::@68f58d84d4754f193387": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "react_codegen_rnworklets"
+    },
+    "react_codegen_safeareacontext::@7984cd80db47aa7b952a": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "react_codegen_safeareacontext",
+      "output": "C:\\Projects\\AuthBottle\\android\\app\\build\\intermediates\\cxx\\Debug\\4u231s61\\obj\\arm64-v8a\\libreact_codegen_safeareacontext.so",
+      "runtimeFiles": [
+        "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\6d3677e35d40c73eb3fed73ec12789f0\\transformed\\fbjni-0.7.0\\prefab\\modules\\fbjni\\libs\\android.arm64-v8a\\libfbjni.so",
+        "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\1657b42eefcb6e428a0c7a95fe57a3c2\\transformed\\react-android-0.81.5-debug\\prefab\\modules\\jsi\\libs\\android.arm64-v8a\\libjsi.so",
+        "C:\\Users\\filip\\.gradle\\caches\\8.14.3\\transforms\\1657b42eefcb6e428a0c7a95fe57a3c2\\transformed\\react-android-0.81.5-debug\\prefab\\modules\\reactnative\\libs\\android.arm64-v8a\\libreactnative.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\Users\\filip\\AppData\\Local\\Android\\Sdk\\ndk\\27.1.12297006\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\filip\\AppData\\Local\\Android\\Sdk\\ndk\\27.1.12297006\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

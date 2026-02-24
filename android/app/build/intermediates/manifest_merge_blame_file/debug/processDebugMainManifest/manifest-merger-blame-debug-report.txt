@@ -1,0 +1,433 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.qb404.minimal"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:4:3-75
+11-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:4:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:2:3-64
+12-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:3:3-77
+13-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:3:20-75
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:5:3-63
+14-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:5:20-61
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:6:3-78
+15-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:6:20-76
+16
+17    <queries>
+17-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:7:3-13:13
+18        <intent>
+18-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:8:5-12:14
+19            <action android:name="android.intent.action.VIEW" />
+19-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:9:7-58
+19-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:9:15-56
+20
+21            <category android:name="android.intent.category.BROWSABLE" />
+21-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:10:7-67
+21-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:10:17-65
+22
+23            <data android:scheme="https" />
+23-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:11:7-37
+23-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:11:13-35
+24        </intent>
+25
+26        <package android:name="host.exp.exponent" /> <!-- Query open documents -->
+26-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-53
+26-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:18-50
+27        <intent>
+27-->[host.exp.exponent:expo.modules.filesystem:19.0.21] C:\Users\filip\.gradle\caches\8.14.3\transforms\288c2864b882b94c4872b38323bdd80d\transformed\expo.modules.filesystem-19.0.21\AndroidManifest.xml:15:9-17:18
+28            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+28-->[host.exp.exponent:expo.modules.filesystem:19.0.21] C:\Users\filip\.gradle\caches\8.14.3\transforms\288c2864b882b94c4872b38323bdd80d\transformed\expo.modules.filesystem-19.0.21\AndroidManifest.xml:16:13-79
+28-->[host.exp.exponent:expo.modules.filesystem:19.0.21] C:\Users\filip\.gradle\caches\8.14.3\transforms\288c2864b882b94c4872b38323bdd80d\transformed\expo.modules.filesystem-19.0.21\AndroidManifest.xml:16:21-76
+29        </intent>
+30    </queries>
+31
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->[:expo-updates] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-updates\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-79
+32-->[:expo-updates] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-updates\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:22-76
+33
+34    <permission
+34-->[androidx.core:core:1.16.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\c7d89453c862d97a533d1ac86ab3187f\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+35        android:name="com.qb404.minimal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+35-->[androidx.core:core:1.16.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\c7d89453c862d97a533d1ac86ab3187f\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+36        android:protectionLevel="signature" />
+36-->[androidx.core:core:1.16.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\c7d89453c862d97a533d1ac86ab3187f\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+37
+38    <uses-permission android:name="com.qb404.minimal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+38-->[androidx.core:core:1.16.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\c7d89453c862d97a533d1ac86ab3187f\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.16.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\c7d89453c862d97a533d1ac86ab3187f\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+39
+40    <application
+40-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:14:3-31:17
+41        android:name="com.qb404.minimal.MainApplication"
+41-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:14:16-47
+42        android:allowBackup="true"
+42-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:14:162-188
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.16.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\c7d89453c862d97a533d1ac86ab3187f\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
+44        android:debuggable="true"
+45        android:enableOnBackInvokedCallback="false"
+45-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:14:248-291
+46        android:extractNativeLibs="false"
+47        android:icon="@mipmap/ic_launcher"
+47-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:14:81-115
+48        android:label="@string/app_name"
+48-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:14:48-80
+49        android:roundIcon="@mipmap/ic_launcher_round"
+49-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:14:116-161
+50        android:supportsRtl="true"
+50-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:14:221-247
+51        android:theme="@style/AppTheme"
+51-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:14:189-220
+52        android:usesCleartextTraffic="true" >
+52-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\debug\AndroidManifest.xml:6:18-53
+53        <meta-data
+53-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:15:5-83
+54            android:name="expo.modules.updates.ENABLED"
+54-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:15:16-59
+55            android:value="false" />
+55-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:15:60-81
+56        <meta-data
+56-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:16:5-105
+57            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+57-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:16:16-80
+58            android:value="ALWAYS" />
+58-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:16:81-103
+59        <meta-data
+59-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:17:5-99
+60            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+60-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:17:16-79
+61            android:value="0" />
+61-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:17:80-97
+62
+63        <activity
+63-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:18:5-30:16
+64            android:name="com.qb404.minimal.MainActivity"
+64-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:18:15-43
+65            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|uiMode"
+65-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:18:44-134
+66            android:exported="true"
+66-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:18:256-279
+67            android:launchMode="singleTask"
+67-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:18:135-166
+68            android:screenOrientation="portrait"
+68-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:18:280-316
+69            android:theme="@style/Theme.App.SplashScreen"
+69-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:18:210-255
+70            android:windowSoftInputMode="adjustResize" >
+70-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:18:167-209
+71            <intent-filter>
+71-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:19:7-22:23
+72                <action android:name="android.intent.action.MAIN" />
+72-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:20:9-60
+72-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:20:17-58
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:21:9-68
+74-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:21:19-66
+75            </intent-filter>
+76            <intent-filter>
+76-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:23:7-29:23
+77                <action android:name="android.intent.action.VIEW" />
+77-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:9:7-58
+77-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:9:15-56
+78
+79                <category android:name="android.intent.category.DEFAULT" />
+79-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:25:9-67
+79-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:25:19-65
+80                <category android:name="android.intent.category.BROWSABLE" />
+80-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:10:7-67
+80-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:10:17-65
+81
+82                <data android:scheme="minimal" />
+82-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:11:7-37
+82-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:11:13-35
+83                <data android:scheme="exp+minimal" />
+83-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:11:7-37
+83-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:11:13-35
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:9-16:75
+87            android:name="expo.modules.devlauncher.launcher.DevLauncherActivity"
+87-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-81
+88            android:exported="true"
+88-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-36
+89            android:launchMode="singleTask"
+89-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:13-44
+90            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+90-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:13-72
+91        <activity
+91-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:17:9-30:20
+92            android:name="expo.modules.devlauncher.compose.AuthActivity"
+92-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:18:13-73
+93            android:exported="true"
+93-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:13-36
+94            android:launchMode="singleTask"
+94-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:13-44
+95            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+95-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:13-72
+96            <intent-filter>
+96-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:13-29:29
+97                <action android:name="android.intent.action.VIEW" />
+97-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:9:7-58
+97-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:9:15-56
+98
+99                <category android:name="android.intent.category.DEFAULT" />
+99-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:25:9-67
+99-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:25:19-65
+100                <category android:name="android.intent.category.BROWSABLE" />
+100-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:10:7-67
+100-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:10:17-65
+101
+102                <data android:scheme="expo-dev-launcher" />
+102-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:11:7-37
+102-->C:\Users\filip\Documents\GitHub\AuthBottle\android\app\src\main\AndroidManifest.xml:11:13-35
+103            </intent-filter>
+104        </activity>
+105        <activity
+105-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:31:9-34:70
+106            android:name="expo.modules.devlauncher.launcher.errors.DevLauncherErrorActivity"
+106-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:32:13-93
+107            android:screenOrientation="portrait"
+107-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:33:13-49
+108            android:theme="@style/Theme.DevLauncher.ErrorActivity" />
+108-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:34:13-67
+109
+110        <meta-data
+110-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:36:9-38:42
+111            android:name="com.google.mlkit.vision.DEPENDENCIES"
+111-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:37:13-64
+112            android:value="barcode_ui" />
+112-->[:expo-dev-launcher] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-dev-launcher\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:38:13-39
+113        <meta-data
+113-->[:expo-modules-core] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:9-11:89
+114            android:name="org.unimodules.core.AppLoader#react-native-headless"
+114-->[:expo-modules-core] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-79
+115            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+115-->[:expo-modules-core] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-86
+116        <meta-data
+116-->[:expo-modules-core] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:9-15:45
+117            android:name="com.facebook.soloader.enabled"
+117-->[:expo-modules-core] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-57
+118            android:value="true" />
+118-->[:expo-modules-core] C:\Users\filip\Documents\GitHub\AuthBottle\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-33
+119
+120        <activity
+120-->[com.facebook.react:react-android:0.81.5] C:\Users\filip\.gradle\caches\8.14.3\transforms\1657b42eefcb6e428a0c7a95fe57a3c2\transformed\react-android-0.81.5-debug\AndroidManifest.xml:19:9-21:40
+121            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+121-->[com.facebook.react:react-android:0.81.5] C:\Users\filip\.gradle\caches\8.14.3\transforms\1657b42eefcb6e428a0c7a95fe57a3c2\transformed\react-android-0.81.5-debug\AndroidManifest.xml:20:13-77
+122            android:exported="false" />
+122-->[com.facebook.react:react-android:0.81.5] C:\Users\filip\.gradle\caches\8.14.3\transforms\1657b42eefcb6e428a0c7a95fe57a3c2\transformed\react-android-0.81.5-debug\AndroidManifest.xml:21:13-37
+123
+124        <provider
+124-->[host.exp.exponent:expo.modules.filesystem:19.0.21] C:\Users\filip\.gradle\caches\8.14.3\transforms\288c2864b882b94c4872b38323bdd80d\transformed\expo.modules.filesystem-19.0.21\AndroidManifest.xml:21:9-30:20
+125            android:name="expo.modules.filesystem.FileSystemFileProvider"
+125-->[host.exp.exponent:expo.modules.filesystem:19.0.21] C:\Users\filip\.gradle\caches\8.14.3\transforms\288c2864b882b94c4872b38323bdd80d\transformed\expo.modules.filesystem-19.0.21\AndroidManifest.xml:22:13-74
+126            android:authorities="com.qb404.minimal.FileSystemFileProvider"
+126-->[host.exp.exponent:expo.modules.filesystem:19.0.21] C:\Users\filip\.gradle\caches\8.14.3\transforms\288c2864b882b94c4872b38323bdd80d\transformed\expo.modules.filesystem-19.0.21\AndroidManifest.xml:23:13-74
+127            android:exported="false"
+127-->[host.exp.exponent:expo.modules.filesystem:19.0.21] C:\Users\filip\.gradle\caches\8.14.3\transforms\288c2864b882b94c4872b38323bdd80d\transformed\expo.modules.filesystem-19.0.21\AndroidManifest.xml:24:13-37
+128            android:grantUriPermissions="true" >
+128-->[host.exp.exponent:expo.modules.filesystem:19.0.21] C:\Users\filip\.gradle\caches\8.14.3\transforms\288c2864b882b94c4872b38323bdd80d\transformed\expo.modules.filesystem-19.0.21\AndroidManifest.xml:25:13-47
+129            <meta-data
+129-->[host.exp.exponent:expo.modules.filesystem:19.0.21] C:\Users\filip\.gradle\caches\8.14.3\transforms\288c2864b882b94c4872b38323bdd80d\transformed\expo.modules.filesystem-19.0.21\AndroidManifest.xml:27:13-29:70
+130                android:name="android.support.FILE_PROVIDER_PATHS"
+130-->[host.exp.exponent:expo.modules.filesystem:19.0.21] C:\Users\filip\.gradle\caches\8.14.3\transforms\288c2864b882b94c4872b38323bdd80d\transformed\expo.modules.filesystem-19.0.21\AndroidManifest.xml:28:17-67
+131                android:resource="@xml/file_system_provider_paths" />
+131-->[host.exp.exponent:expo.modules.filesystem:19.0.21] C:\Users\filip\.gradle\caches\8.14.3\transforms\288c2864b882b94c4872b38323bdd80d\transformed\expo.modules.filesystem-19.0.21\AndroidManifest.xml:29:17-67
+132        </provider>
+133
+134        <service
+134-->[androidx.room:room-runtime:2.6.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\0ee992987b3054e3cdf8a29cb4dd445a\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+135            android:name="androidx.room.MultiInstanceInvalidationService"
+135-->[androidx.room:room-runtime:2.6.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\0ee992987b3054e3cdf8a29cb4dd445a\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+136            android:directBootAware="true"
+136-->[androidx.room:room-runtime:2.6.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\0ee992987b3054e3cdf8a29cb4dd445a\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+137            android:exported="false" />
+137-->[androidx.room:room-runtime:2.6.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\0ee992987b3054e3cdf8a29cb4dd445a\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+138        <!--
+139        This activity is an invisible delegate activity to start scanner activity
+140        and receive result, so it's unnecessary to support screen orientation and
+141        we can avoid any side effect from activity recreation in any case.
+142        -->
+143        <activity
+143-->[com.google.android.gms:play-services-code-scanner:16.1.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\f0374382fbf9a50527a9b1ee422a8fc3\transformed\play-services-code-scanner-16.1.0\AndroidManifest.xml:15:9-20:20
+144            android:name="com.google.mlkit.vision.codescanner.internal.GmsBarcodeScanningDelegateActivity"
+144-->[com.google.android.gms:play-services-code-scanner:16.1.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\f0374382fbf9a50527a9b1ee422a8fc3\transformed\play-services-code-scanner-16.1.0\AndroidManifest.xml:16:13-107
+145            android:exported="false"
+145-->[com.google.android.gms:play-services-code-scanner:16.1.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\f0374382fbf9a50527a9b1ee422a8fc3\transformed\play-services-code-scanner-16.1.0\AndroidManifest.xml:17:13-37
+146            android:screenOrientation="portrait" >
+146-->[com.google.android.gms:play-services-code-scanner:16.1.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\f0374382fbf9a50527a9b1ee422a8fc3\transformed\play-services-code-scanner-16.1.0\AndroidManifest.xml:18:13-49
+147        </activity>
+148
+149        <service
+149-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\e94bbd07d806a22b233339d14e56b183\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:9:9-15:19
+150            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+150-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\e94bbd07d806a22b233339d14e56b183\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:10:13-91
+151            android:directBootAware="true"
+151-->[com.google.mlkit:common:18.11.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\d612aacd3307b7b0f377f42d03cc218d\transformed\common-18.11.0\AndroidManifest.xml:17:13-43
+152            android:exported="false" >
+152-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\e94bbd07d806a22b233339d14e56b183\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:11:13-37
+153            <meta-data
+153-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\e94bbd07d806a22b233339d14e56b183\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:12:13-14:85
+154                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+154-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\e94bbd07d806a22b233339d14e56b183\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:13:17-120
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\e94bbd07d806a22b233339d14e56b183\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:14:17-82
+156            <meta-data
+156-->[com.google.mlkit:vision-common:17.3.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\62f99dd5897793852e4f496487206b3a\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+157                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+157-->[com.google.mlkit:vision-common:17.3.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\62f99dd5897793852e4f496487206b3a\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.mlkit:vision-common:17.3.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\62f99dd5897793852e4f496487206b3a\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
+159            <meta-data
+159-->[com.google.mlkit:common:18.11.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\d612aacd3307b7b0f377f42d03cc218d\transformed\common-18.11.0\AndroidManifest.xml:20:13-22:85
+160                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+160-->[com.google.mlkit:common:18.11.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\d612aacd3307b7b0f377f42d03cc218d\transformed\common-18.11.0\AndroidManifest.xml:21:17-120
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.mlkit:common:18.11.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\d612aacd3307b7b0f377f42d03cc218d\transformed\common-18.11.0\AndroidManifest.xml:22:17-82
+162        </service>
+163
+164        <provider
+164-->[com.google.mlkit:common:18.11.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\d612aacd3307b7b0f377f42d03cc218d\transformed\common-18.11.0\AndroidManifest.xml:9:9-13:38
+165            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+165-->[com.google.mlkit:common:18.11.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\d612aacd3307b7b0f377f42d03cc218d\transformed\common-18.11.0\AndroidManifest.xml:10:13-78
+166            android:authorities="com.qb404.minimal.mlkitinitprovider"
+166-->[com.google.mlkit:common:18.11.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\d612aacd3307b7b0f377f42d03cc218d\transformed\common-18.11.0\AndroidManifest.xml:11:13-69
+167            android:exported="false"
+167-->[com.google.mlkit:common:18.11.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\d612aacd3307b7b0f377f42d03cc218d\transformed\common-18.11.0\AndroidManifest.xml:12:13-37
+168            android:initOrder="99" />
+168-->[com.google.mlkit:common:18.11.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\d612aacd3307b7b0f377f42d03cc218d\transformed\common-18.11.0\AndroidManifest.xml:13:13-35
+169
+170        <activity
+170-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\1452ce8e64d17b6c4a7d62dc1a3192cd\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+171            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+171-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\1452ce8e64d17b6c4a7d62dc1a3192cd\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+172            android:exported="false"
+172-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\1452ce8e64d17b6c4a7d62dc1a3192cd\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+173            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+173-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\1452ce8e64d17b6c4a7d62dc1a3192cd\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+174
+175        <meta-data
+175-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\7a792965f987a74239f1e2de76a787a9\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+176            android:name="com.google.android.gms.version"
+176-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\7a792965f987a74239f1e2de76a787a9\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+177            android:value="@integer/google_play_services_version" />
+177-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\7a792965f987a74239f1e2de76a787a9\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+178
+179        <activity
+179-->[androidx.compose.ui:ui-tooling-android:1.9.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\2cf5a918b223be566219e24df1d62e31\transformed\ui-tooling\AndroidManifest.xml:23:9-25:39
+180            android:name="androidx.compose.ui.tooling.PreviewActivity"
+180-->[androidx.compose.ui:ui-tooling-android:1.9.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\2cf5a918b223be566219e24df1d62e31\transformed\ui-tooling\AndroidManifest.xml:24:13-71
+181            android:exported="true" />
+181-->[androidx.compose.ui:ui-tooling-android:1.9.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\2cf5a918b223be566219e24df1d62e31\transformed\ui-tooling\AndroidManifest.xml:25:13-36
+182
+183        <provider
+183-->[androidx.emoji2:emoji2:1.4.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\667c06ffc2e5f04d67ae3b5cd4a2f327\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+184            android:name="androidx.startup.InitializationProvider"
+184-->[androidx.emoji2:emoji2:1.4.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\667c06ffc2e5f04d67ae3b5cd4a2f327\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+185            android:authorities="com.qb404.minimal.androidx-startup"
+185-->[androidx.emoji2:emoji2:1.4.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\667c06ffc2e5f04d67ae3b5cd4a2f327\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+186            android:exported="false" >
+186-->[androidx.emoji2:emoji2:1.4.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\667c06ffc2e5f04d67ae3b5cd4a2f327\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+187            <meta-data
+187-->[androidx.emoji2:emoji2:1.4.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\667c06ffc2e5f04d67ae3b5cd4a2f327\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+188                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+188-->[androidx.emoji2:emoji2:1.4.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\667c06ffc2e5f04d67ae3b5cd4a2f327\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+189                android:value="androidx.startup" />
+189-->[androidx.emoji2:emoji2:1.4.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\667c06ffc2e5f04d67ae3b5cd4a2f327\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+190            <meta-data
+190-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\b4106dad49fcc05bc9d231e9f361d33d\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:29:13-31:52
+191                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+191-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\b4106dad49fcc05bc9d231e9f361d33d\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:30:17-78
+192                android:value="androidx.startup" />
+192-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\filip\.gradle\caches\8.14.3\transforms\b4106dad49fcc05bc9d231e9f361d33d\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:31:17-49
+193            <meta-data
+193-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:29:13-31:52
+194                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+194-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:30:17-85
+195                android:value="androidx.startup" />
+195-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:31:17-49
+196        </provider>
+197
+198        <receiver
+198-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:34:9-52:20
+199            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+199-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:35:13-76
+200            android:directBootAware="false"
+200-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:36:13-44
+201            android:enabled="true"
+201-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:37:13-35
+202            android:exported="true"
+202-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:38:13-36
+203            android:permission="android.permission.DUMP" >
+203-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:39:13-57
+204            <intent-filter>
+204-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:40:13-42:29
+205                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+205-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:17-91
+205-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:25-88
+206            </intent-filter>
+207            <intent-filter>
+207-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:43:13-45:29
+208                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+208-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:17-85
+208-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:25-82
+209            </intent-filter>
+210            <intent-filter>
+210-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:46:13-48:29
+211                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+211-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:17-88
+211-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:25-85
+212            </intent-filter>
+213            <intent-filter>
+213-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:49:13-51:29
+214                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+214-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:17-95
+214-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\filip\.gradle\caches\8.14.3\transforms\7dc0b6a769ddc92d14a32c3b07b25b31\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:25-92
+215            </intent-filter>
+216        </receiver>
+217
+218        <service
+218-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\filip\.gradle\caches\8.14.3\transforms\de86db5405c351afa2fae6bc60f86bdf\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+219            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+219-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\filip\.gradle\caches\8.14.3\transforms\de86db5405c351afa2fae6bc60f86bdf\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+220            android:exported="false" >
+220-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\filip\.gradle\caches\8.14.3\transforms\de86db5405c351afa2fae6bc60f86bdf\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+221            <meta-data
+221-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\filip\.gradle\caches\8.14.3\transforms\de86db5405c351afa2fae6bc60f86bdf\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+222                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+222-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\filip\.gradle\caches\8.14.3\transforms\de86db5405c351afa2fae6bc60f86bdf\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+223                android:value="cct" />
+223-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\filip\.gradle\caches\8.14.3\transforms\de86db5405c351afa2fae6bc60f86bdf\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+224        </service>
+225        <service
+225-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\filip\.gradle\caches\8.14.3\transforms\84ead10d30c045505a88986b3a294db7\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+226            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+226-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\filip\.gradle\caches\8.14.3\transforms\84ead10d30c045505a88986b3a294db7\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+227            android:exported="false"
+227-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\filip\.gradle\caches\8.14.3\transforms\84ead10d30c045505a88986b3a294db7\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+228            android:permission="android.permission.BIND_JOB_SERVICE" >
+228-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\filip\.gradle\caches\8.14.3\transforms\84ead10d30c045505a88986b3a294db7\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+229        </service>
+230
+231        <receiver
+231-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\filip\.gradle\caches\8.14.3\transforms\84ead10d30c045505a88986b3a294db7\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+232            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+232-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\filip\.gradle\caches\8.14.3\transforms\84ead10d30c045505a88986b3a294db7\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+233            android:exported="false" />
+233-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\filip\.gradle\caches\8.14.3\transforms\84ead10d30c045505a88986b3a294db7\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+234    </application>
+235
+236</manifest>
