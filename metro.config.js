@@ -7,10 +7,6 @@ const config = getDefaultConfig(__dirname);
 // Add .sql support
 config.resolver.sourceExts.push('sql');
 
-// Ignore server folder
-config.resolver.blockList = [
-  /server\/.*/,
-];
 
 // Wrap with Uniwind
 module.exports = withUniwindConfig(config, {

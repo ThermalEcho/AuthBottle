@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "minimal",
-    "slug": "minimal",
+    "slug": "AuthBottle",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -34,10 +34,18 @@
     },
     "plugins": [
       "expo-router",
-      "expo-sqlite"
+      "expo-sqlite",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "86255521-1b2f-4f6c-83b6-312f5ecee083"
+      }
+    },
+    "owner": "qb404"
   }
 }

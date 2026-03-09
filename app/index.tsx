@@ -43,7 +43,7 @@ export default function Screen() {
           variant="default" 
           size="lg"
           className="min-w-[200px] sm:min-w-[240px] text-base sm:text-lg font-semibold border-secondary text-secondary transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_hsl(187,100%,50%,0.5)]"
-          onPress={() => router.navigate('/pages/Login')}
+          onPress={() => router.navigate('/(auth)/Login')}
         >
           Login
         </Button>
@@ -51,9 +51,10 @@ export default function Screen() {
           variant="outline" 
           size="lg"
           className="min-w-[200px] sm:min-w-[240px] text-base sm:text-lg font-semibold border-primary text-primary transition-all duration-300 hover:scale-105 hover:bg-primary hover:shadow-[0_0_20px_hsl(187,100%,50%,0.5)]"
-          onPress={() => router.navigate('/pages/Register')}
-        >
+          onPress={() => router.navigate('/(auth)/Register')}
+        > <text>
           Register
+          </text>
         </Button>
       </View>
     </View>
